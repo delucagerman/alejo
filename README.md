@@ -1,43 +1,48 @@
-💫 This is a free template to make your portfolio website using **[Astro 2.0](https://astro.build/blog/astro-2/) + [Tailwind CSS](https://tailwindcss.com/)**.
+💫 Este es un template gratuito para crear tu sitio web de portafolio utilizando **[Astro 2.0](https://astro.build/blog/astro-2/) + [Tailwind CSS](https://tailwindcss.com/)**.
 
-### Dark mode
-![Dark mode](https://github.com/veranikabarel/astro-portfolio/assets/48052206/240ab82d-8896-412e-8f52-5cf10d42b1db)
-### Light mode
-![Light mode](https://github.com/veranikabarel/astro-portfolio/assets/48052206/bfa88b30-6dcf-4d5f-bf28-efc3caa27d0f)
-### Lighthouse report
-![Lighthouse report](https://github.com/veranikabarel/astro-portfolio/assets/48052206/e7ad23a4-1a9b-477e-a13e-a321ce6bd3d6)
+### Modo Oscuro
+![Modo Oscuro](https://github.com/veranikabarel/astro-portfolio/assets/48052206/240ab82d-8896-412e-8f52-5cf10d42b1db)
+### Modo Claro
+![Modo Claro](https://github.com/veranikabarel/astro-portfolio/assets/48052206/bfa88b30-6dcf-4d5f-bf28-efc3caa27d0f)
+### Reporte de Lighthouse
+![Reporte de Lighthouse](https://github.com/veranikabarel/astro-portfolio/assets/48052206/e7ad23a4-1a9b-477e-a13e-a321ce6bd3d6)
 
-## Table of Contents
+## Tabla de Contenidos
 
 - [Demo](#demo)
-- [Features](#features)
-- [Project structure](#project-structure)
-- [Commands](#commands)
-- [Contributing](#contributing)
-- [Credits](#credits)
+- [Características](#características)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Comandos](#comandos)
+- [Contribuciones](#contribuciones)
+- [Créditos](#créditos)
 
 ## Demo
 
 📌 [https://astro-fe-portfolio.netlify.app/](https://astro-fe-portfolio.netlify.app/)
 
-## Features
+## Características
 
-✔️ Integration with **Tailwind CSS** ([@astrojs/tailwind](https://docs.astro.build/en/guides/integrations-guide/tailwind/)) supporting **Dark mode**.
+✔️ Integración con **Tailwind CSS** ([@astrojs/tailwind](https://docs.astro.build/en/guides/integrations-guide/tailwind/)) con soporte para **Modo Oscuro**.
 
-✔️ Uses the following integrations:
+✔️ Utiliza las siguientes integraciones:
 
 - @astrojs/mdx
 - @astrojs/image
-- @astrojs/tailwind - with prettier class sorting plugin
+- @astrojs/tailwind - con complemento de clasificación de clases prettier
 - @astro-icon
 - @astro-seo
 - @astro-navbar
 
-✔️([@Playwright](https://github.com/microsoft/playwright)) e2e tests are setted up.
+✔️ Se han configurado pruebas de extremo a extremo ([@Playwright](https://github.com/microsoft/playwright)).
 
-🔜 Blog with frontmatter (title, description, author, date, image, tags) and RSS feed, sitemap and robots.txt
+🔜 Blog con metadatos (título, descripción, autor, fecha, imagen, etiquetas) y alimentación RSS, mapa del sitio y robots.txt.
 
-🔜 404 error page
+🔜 Página de error 404
+
+## Estructura del Proyecto
+
+Dentro de tu proyecto de Astro, verás las siguientes carpetas y archivos:
+
 
 ## Project Structure
 
@@ -78,29 +83,29 @@ Inside of your Astro project, you'll see the following folders and files:
 └── ...
 ```
 
-Astro looks for `.astro`, `.md` or `.mdx` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-`src/components/` is where we put any Astro components and similarly `src/layouts/` for layouts.
+Astro busca archivos `.astro`, `.md` o `.mdx` en el directorio `src/pages/`. Cada página se expone como una ruta basada en el nombre de su archivo.
 
-Images can be placed in `src/images/`.
+`src/components/` es donde colocamos cualquier componente de Astro y de manera similar `src/layouts/` para los diseños.
 
-Blog and documentation content are created as collections of Markdown or MDX files in `src/content`.
+Las imágenes pueden colocarse en `src/images/`.
 
-Any static assets, eg. images, can be placed in the `public/` directory.
+El contenido del blog y la documentación se crean como colecciones de archivos Markdown o MDX en `src/content`.
 
-## Commands
+Cualquier recurso estático, por ejemplo, imágenes, puede colocarse en el directorio `public/`.
 
-All commands are run from the root of the project, from a terminal:
+## Comandos
 
-| Command             | Action                                             |
+Todos los comandos se ejecutan desde la raíz del proyecto, desde una terminal:
+
+| Comando             | Acción                                             |
 | :------------------ | :------------------------------------------------- |
-| `yarn`              | Installs dependencies                              |
-| `yarn dev`          | Starts local dev server at `localhost:3000`        |
-| `yarn build`        | Build your production site to `./dist/`            |
-| `yarn preview`      | Preview your build locally, before deploying       |
-| `yarn astro ...`    | Run CLI commands like `astro add`, `astro preview` |
-| `yarn astro --help` | Get help using the Astro CLI                       |
-| `yarn test:e2e`     | Run Playwright tests                               |
-
+| `yarn`              | Instala las dependencias                           |
+| `yarn dev`          | Inicia el servidor de desarrollo local en `localhost:3000`|
+| `yarn build`        | Construye tu sitio de producción en `./dist/`      |
+| `yarn preview`      | Previsualiza tu construcción localmente antes de implementarla|
+| `yarn astro ...`    | Ejecuta comandos de CLI como `astro add`, `astro preview`|
+| `yarn astro --help` | Obtiene ayuda usando el CLI de Astro               |
+| `yarn test:e2e`     | Ejecuta pruebas de Playwright                       |
 
 # alejo
